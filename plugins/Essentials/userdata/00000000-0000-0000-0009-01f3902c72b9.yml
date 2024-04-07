@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.168.1.130
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1711434372319
+  login: 1711434236997
+money: '0'
+last-account-name: .GutturalMage346
+lastlocation:
+  world: 0cf3867c-5c7a-4a3a-99bb-e4ec58c77291
+  world-name: world
+  x: 8.159880904115678
+  y: -60.0
+  z: 8.59842449835168
+  yaw: -93.2982177734375
+  pitch: 9.900012016296387
+logoutlocation:
+  world: 0cf3867c-5c7a-4a3a-99bb-e4ec58c77291
+  world-name: world
+  x: 8.159880904115678
+  y: -60.0
+  z: 8.59842449835168
+  yaw: -93.2959213256836
+  pitch: 9.898895263671875

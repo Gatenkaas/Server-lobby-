@@ -1,2 +1,426 @@
-[07:21:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 43412273ms or 868245 ticks behind
-[11:55:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11171ms or 223 ticks behind
+[15:17:32] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:17:37] [ServerMain/INFO]: Loaded 1174 recipes
+[15:17:37] [ServerMain/INFO]: Loaded 1271 advancements
+[15:17:37] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[15:17:37] [Server thread/INFO]: Loading properties
+[15:17:38] [Server thread/INFO]: This server is running Paper version git-Paper-450 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 62b220a)
+[15:17:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:17:39] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:17:39] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[15:17:39] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[15:17:40] [Server thread/WARN]: Unable to read file whitelist.json, backing it up to {0}.backup and creating new copy.
+com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 7 column 4 path $[1]
+	at com.google.gson.Gson.fromJson(Gson.java:1241) ~[gson-2.10.1.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1137) ~[gson-2.10.1.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1075) ~[gson-2.10.1.jar:?]
+	at net.minecraft.server.players.StoredUserList.load(StoredUserList.java:147) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.loadWhiteList(DedicatedPlayerList.java:118) ~[paper-1.20.4.jar:git-Paper-450]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.loadAndSaveFiles(DedicatedPlayerList.java:31) ~[paper-1.20.4.jar:git-Paper-450]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:216) ~[paper-1.20.4.jar:git-Paper-450]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1131) ~[paper-1.20.4.jar:git-Paper-450]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-450]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at line 7 column 4 path $[1]
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1659) ~[gson-2.10.1.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:485) ~[gson-2.10.1.jar:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:422) ~[gson-2.10.1.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:779) ~[gson-2.10.1.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.1.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.1.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1227) ~[gson-2.10.1.jar:?]
+	... 9 more
+[15:17:40] [Server thread/INFO]: Default game type: SURVIVAL
+[15:17:40] [Server thread/INFO]: Generating keypair
+[15:17:40] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:17:40] [Server thread/INFO]: Using default channel type
+[15:17:40] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[15:17:40] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[15:17:41] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R3.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[15:17:48] [Server thread/WARN]: Legacy plugin LobbyWatch v1.2 does not specify an api-version.
+[15:17:48] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.5
+[15:17:49] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.102
+[15:17:57] [Server thread/INFO]: [DeluxeHub] Loading server plugin DeluxeHub v3.5.5
+[15:17:57] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[15:17:57] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.20.1
+[15:17:57] [Server thread/INFO]: [EssentialsDiscord] Loading server plugin EssentialsDiscord v2.20.1
+[15:17:57] [Server thread/INFO]: [PowerRanks] Loading server plugin PowerRanks v1.10.9R2
+[15:17:57] [Server thread/INFO]: [LobbyWatch] Loading server plugin LobbyWatch v1.2
+[15:17:57] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.20.1
+[15:17:57] [Server thread/INFO]: [EssentialsProtect] Loading server plugin EssentialsProtect v2.20.1
+[15:17:58] [Server thread/INFO]: [net.essentialsx.discordlink.EssentialsDiscordLink] Loading server plugin EssentialsDiscordLink v2.20.1
+[15:17:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:17:58] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.102
+[15:17:59] [Server thread/INFO]:         __    
+[15:17:59] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.102
+[15:17:59] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[15:17:59] [Server thread/INFO]: 
+[15:17:59] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[15:18:00] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[15:18:02] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[15:18:02] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[15:18:02] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 4300ms)
+[15:18:02] [Server thread/INFO]: [PowerRanks] Enabling PowerRanks v1.10.9R2
+[15:18:02] [Server thread/INFO]: [PowerRanks] Setting up file: config.yml
+[15:18:03] [Server thread/INFO]: [PowerRanks] 
+[15:18:03] [Server thread/INFO]: [PowerRanks] === ------- LOADING CONFIGURATION ------ ===
+[15:18:03] [Server thread/INFO]: [PowerRanks] Loading config file
+[15:18:03] [Server thread/INFO]: [PowerRanks] Loading language file
+[15:18:03] [Server thread/INFO]: [PowerRanks] Loading usertags file
+[15:18:03] [Server thread/INFO]: [PowerRanks] Loading tablist file
+[15:18:03] [Server thread/INFO]: [PowerRanks] 
+[15:18:03] [Server thread/INFO]: [PowerRanks] === ---------- LOADING ADDONS ---------- ===
+[15:18:03] [Server thread/INFO]: [PowerRanks] Loaded 0 add-on(s)!
+[15:18:03] [Server thread/INFO]: [PowerRanks] 
+[15:18:03] [Server thread/INFO]: [PowerRanks] === ----------- LOADING DATA ----------- ===
+[15:18:03] [Server thread/INFO]: [PowerRanks] Loading player & rank data
+[15:18:05] [Server thread/INFO]: [PowerRanks] 
+[15:18:05] [Server thread/INFO]: [PowerRanks] === ------- LOADING PLUGIN HOOKS ------- ===
+[15:18:05] [Server thread/INFO]: [PowerRanks] Checking for plugins to hook in to:
+[15:18:05] [Server thread/INFO]: [PowerRanks] PlaceholderAPI found!
+[15:18:05] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: powerranks [1.10.9R2]
+[15:18:05] [Server thread/INFO]: [PowerRanks] 
+[15:18:05] [Server thread/INFO]: [PowerRanks] §b  ██████  ██████ §a  PowerRanks v1.10.9R2
+[15:18:05] [Server thread/INFO]: [PowerRanks] §b  ██   ██ ██   ██§a  Running on Paper v450
+[15:18:05] [Server thread/INFO]: [PowerRanks] §b  ██████  ██████ §a  Startup time: 2918ms
+[15:18:05] [Server thread/INFO]: [PowerRanks] §b  ██      ██   ██§a  Loaded 4 ranks and 1 players (YAML) 
+[15:18:05] [Server thread/INFO]: [PowerRanks] §b  ██      ██   ██§c  
+[15:18:05] [Server thread/INFO]: [PowerRanks] 
+[15:18:05] [Server thread/INFO]: [PowerRanks] If you'd like to donate, please visit https://ko-fi.com/svenar
+[15:18:05] [Server thread/INFO]: [PowerRanks] Checking for updates...
+[15:18:06] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:18:06] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:18:06] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[15:18:06] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
+[15:18:06] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:18:06] [Server thread/INFO]: Preparing level "world"
+[15:18:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:18:08] [Server thread/INFO]: Time elapsed: 342 ms
+[15:18:08] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:18:08] [Server thread/INFO]: Time elapsed: 70 ms
+[15:18:08] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:18:08] [Server thread/INFO]: Time elapsed: 44 ms
+[15:18:08] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.5
+[15:18:09] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[15:18:09] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.5.5
+[15:18:09] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
+[15:18:09] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
+[15:18:09] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
+[15:18:09] [Server thread/INFO]: [DeluxeHub] 
+[15:18:09] [Server thread/INFO]: [DeluxeHub] Version: 3.5.5
+[15:18:09] [Server thread/INFO]: [DeluxeHub] Author: ItsLewizzz
+[15:18:09] [Server thread/INFO]: [DeluxeHub] 
+[15:18:09] [Server thread/INFO]: [DeluxeHub]  Hooked into PlaceholderAPI
+[15:18:09] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[15:18:10] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_20_R3! Trying to find NMS support
+[15:18:10] [Server thread/WARN]: [NBTAPI] [NBTAPI] This Server-Version(v1_20_R3) is not supported by this NBT-API Version(2.12.0) located in DeluxeHub. The NBT-API will try to work as good as it can! Some functions may not work!
+[15:18:10] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DeluxeHub' to create a bStats instance!
+[15:18:10] [Server thread/INFO]: [DeluxeHub] Loaded 15 plugin modules.
+[15:18:10] [Server thread/INFO]: [DeluxeHub] 
+[15:18:10] [Server thread/INFO]: [DeluxeHub] Successfully loaded in 1721ms
+[15:18:10] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[15:18:10] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[15:18:11] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[15:18:11] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[15:18:13] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[15:18:13] [Server thread/INFO]: [Essentials] Using locale en_CA
+[15:18:13] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[15:18:13] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[15:18:13] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[15:18:13] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[15:18:13] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[15:18:13] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.1
+[15:18:13] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[15:18:13] [Server thread/INFO]: [EssentialsDiscord] Enabling EssentialsDiscord v2.20.1
+[15:18:16] [Server thread/INFO]: [EssentialsDiscord] Starting Metrics. Opt-out using the global bStats config.
+[15:18:16] [Server thread/INFO]: [EssentialsDiscord] Attempting to login to Discord...
+[15:18:28] [Server thread/INFO]: [net.essentialsx.dep.net.dv8tion.jda.api.JDA] Login Successful!
+[15:18:32] [JDA MainWS-ReadThread/INFO]: [net.essentialsx.dep.net.dv8tion.jda.internal.requests.WebSocketClient] Connected to WebSocket
+[15:18:32] [JDA MainWS-WriteThread/ERROR]: [net.essentialsx.dep.net.dv8tion.jda.internal.requests.WebSocketClient] WebSocket connection was closed and cannot be recovered due to identification issues
+CloseCode[DISALLOWED_INTENTS](code=4014, meaning=Disallowed intents. Your bot might not be eligible to request a privileged intent such as GUILD_PRESENCES, MESSAGE_CONTENT, or GUILD_MEMBERS.)
+[15:18:33] [Server thread/ERROR]: [EssentialsDiscord] An error occurred while logging into Discord, which has caused the plugin to disable itself: 
+Was shutdown trying to await status.
+Reason: You tried turning on an intent you aren't allowed to use. For more information check https://jda.wiki/using-jda/troubleshooting/#im-getting-closecode4014-disallowed-intents
+[15:18:33] [Server thread/INFO]: [LobbyWatch] Enabling LobbyWatch v1.2*
+[15:18:33] [Server thread/ERROR]: Error occurred while enabling LobbyWatch v1.2 (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "String.startsWith(String)" because "name" is null
+	at org.bukkit.craftbukkit.v1_20_R3.legacy.CraftLegacy.getMaterial(CraftLegacy.java:233) ~[paper-1.20.4.jar:git-Paper-450]
+	at com.deathlyflags.LobbyWatch.LobbyWatchCommand.<init>(LobbyWatchCommand.java:39) ~[LobbyWatch.jar:?]
+	at com.deathlyflags.LobbyWatch.LobbyWatch.onEnable(LobbyWatch.java:17) ~[LobbyWatch.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:287) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:188) ~[paper-1.20.4.jar:git-Paper-450]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[paper-1.20.4.jar:git-Paper-450]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugin(CraftServer.java:639) ~[paper-1.20.4.jar:git-Paper-450]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugins(CraftServer.java:550) ~[paper-1.20.4.jar:git-Paper-450]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:671) ~[paper-1.20.4.jar:git-Paper-450]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:431) ~[paper-1.20.4.jar:git-Paper-450]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:309) ~[paper-1.20.4.jar:git-Paper-450]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1131) ~[paper-1.20.4.jar:git-Paper-450]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-450]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[15:18:33] [Server thread/INFO]: [LobbyWatch] Disabling LobbyWatch v1.2
+[15:18:33] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.1
+[15:18:33] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[15:18:33] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.20.1
+[15:18:33] [Server thread/INFO]: [EssentialsProtect] Continuing to enable Protect.
+[15:18:33] [Server thread/INFO]: [EssentialsProtect] Starting Metrics. Opt-out using the global bStats config.
+[15:18:33] [Server thread/INFO]: [net.essentialsx.discordlink.EssentialsDiscordLink] Enabling EssentialsDiscordLink v2.20.1
+[15:18:33] [Server thread/ERROR]: Error occurred while enabling EssentialsDiscordLink v2.20.1 (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "net.essentialsx.api.v2.services.discord.DiscordService.getRole(String)" because the return value of "net.essentialsx.discordlink.EssentialsDiscordLink.getApi()" is null
+	at net.essentialsx.discordlink.rolesync.RoleSyncManager.onReload(RoleSyncManager.java:174) ~[EssentialsXDiscordLink-2.20.1.jar:?]
+	at net.essentialsx.discordlink.rolesync.RoleSyncManager.<init>(RoleSyncManager.java:32) ~[EssentialsXDiscordLink-2.20.1.jar:?]
+	at net.essentialsx.discordlink.EssentialsDiscordLink.onEnable(EssentialsDiscordLink.java:62) ~[EssentialsXDiscordLink-2.20.1.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:287) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:188) ~[paper-1.20.4.jar:git-Paper-450]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[paper-1.20.4.jar:git-Paper-450]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugin(CraftServer.java:639) ~[paper-1.20.4.jar:git-Paper-450]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugins(CraftServer.java:550) ~[paper-1.20.4.jar:git-Paper-450]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:671) ~[paper-1.20.4.jar:git-Paper-450]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:431) ~[paper-1.20.4.jar:git-Paper-450]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:309) ~[paper-1.20.4.jar:git-Paper-450]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1131) ~[paper-1.20.4.jar:git-Paper-450]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-450]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[15:18:33] [Server thread/INFO]: [net.essentialsx.discordlink.EssentialsDiscordLink] Disabling EssentialsDiscordLink v2.20.1
+[15:18:34] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[15:18:34] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[15:18:34] [Server thread/INFO]: Running delayed init tasks
+[15:18:34] [Server thread/INFO]: Done (56.527s)! For help, type "help"
+[15:18:34] [Server thread/INFO]: Timings Reset
+[15:18:34] [Craft Scheduler Thread - 5 - Essentials/INFO]: [Essentials] Fetching version information...
+[15:18:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2506ms or 50 ticks behind
+[15:18:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6215ms or 124 ticks behind
+[15:19:08] [User Authenticator #0/INFO]: UUID of player stijnieboy_150 is 78651db8-6a5c-4b30-91bc-41f6e9a0fd8c
+[15:19:12] [Server thread/INFO]: + stijnieboy_150 Connected
+[15:19:13] [Server thread/INFO]: stijnieboy_150[/192.168.1.130:50424] logged in with entity id 27 at ([world]8.159880904115678, -60.0, 8.59842449835168)
+[15:19:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6519ms or 130 ticks behind
+[15:19:46] [Server thread/INFO]: stijnieboy_150 lost connection: Disconnected
+[15:19:47] [Server thread/INFO]: - stijnieboy_150 Disconnected
+[15:21:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3638ms or 72 ticks behind
+[15:22:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5588ms or 111 ticks behind
+[15:23:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2610ms or 52 ticks behind
+[15:24:11] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-450 (MC: 1.20.4) ---
+[15:24:13] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[15:24:13] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:24:13] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[15:24:24] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:24:24] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[15:24:33] [Paper Watchdog Thread/ERROR]: 	PID: 37 | Suspended: false | Native: false | State: RUNNABLE
+[15:24:33] [Paper Watchdog Thread/ERROR]: 	Stack:
+[15:24:34] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.io.RandomAccessFile.readBytes0(Native Method)
+[15:24:34] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.io.RandomAccessFile.readBytes(RandomAccessFile.java:400)
+[15:24:34] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.io.RandomAccessFile.read(RandomAccessFile.java:434)
+[15:24:34] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.io.RandomAccessFile.readFully(RandomAccessFile.java:498)
+[15:24:34] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.util.zip.ZipFile$Source.readFullyAt(ZipFile.java:1528)
+[15:24:34] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.util.zip.ZipFile$ZipFileInputStream.initDataOffset(ZipFile.java:930)
+[15:24:34] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.util.zip.ZipFile$ZipFileInputStream.read(ZipFile.java:946)
+[15:24:34] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.util.zip.ZipFile$ZipFileInflaterInputStream.fill(ZipFile.java:463)
+[15:24:34] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.util.zip.InflaterInputStream.read(InflaterInputStream.java:175)
+[15:24:34] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/jdk.internal.loader.Resource.getBytes(Resource.java:126)
+[15:24:34] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/jdk.internal.loader.URLClassPath$JarLoader$2.getBytes(URLClassPath.java:862)
+[15:24:34] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.net.URLClassLoader.defineClass(URLClassLoader.java:519)
+[15:24:34] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.net.URLClassLoader$1.run(URLClassLoader.java:427)
+[15:24:34] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.net.URLClassLoader$1.run(URLClassLoader.java:421)
+[15:24:34] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.security.AccessController.executePrivileged(AccessController.java:809)
+[15:24:34] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.security.AccessController.doPrivileged(AccessController.java:714)
+[15:24:34] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.net.URLClassLoader.findClass(URLClassLoader.java:420)
+[15:24:34] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+[15:24:34] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+[15:24:34] [Paper Watchdog Thread/ERROR]: 		co.aikar.timings.TimingHistory.<init>(TimingHistory.java:96)
+[15:24:34] [Paper Watchdog Thread/ERROR]: 		co.aikar.timings.FullServerTickHandler.stopTiming(FullServerTickHandler.java:77)
+[15:24:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1573)
+[15:24:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1216)
+[15:24:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[15:24:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x0000021881bd4000.run(Unknown Source)
+[15:24:34] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.Thread.runWith(Thread.java:1596)
+[15:24:34] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.Thread.run(Thread.java:1583)
+[15:24:34] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:24:34] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[15:24:34] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:24:35] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-450 (MC: 1.20.4) ---
+[15:24:35] [Paper Watchdog Thread/ERROR]: The server has not responded for 14 seconds! Creating thread dump
+[15:24:35] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:24:35] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[15:24:36] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:24:36] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[15:24:36] [Paper Watchdog Thread/ERROR]: 	PID: 37 | Suspended: false | Native: false | State: RUNNABLE
+[15:24:36] [Paper Watchdog Thread/ERROR]: 	Stack:
+[15:24:37] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.Class.initClassName(Native Method)
+[15:24:37] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.Class.getName(Class.java:948)
+[15:24:37] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.Class.getPackageName(Class.java:1167)
+[15:24:37] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/sun.invoke.util.VerifyAccess.isSamePackage(VerifyAccess.java:378)
+[15:24:37] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/sun.invoke.util.VerifyAccess.isClassAccessible(VerifyAccess.java:195)
+[15:24:37] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.invoke.MethodHandles$Lookup.isClassAccessible(MethodHandles.java:3798)
+[15:24:37] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.invoke.MethodHandles$Lookup.checkSymbolicClass(MethodHandles.java:3786)
+[15:24:37] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.invoke.MethodHandles$Lookup.resolveOrFail(MethodHandles.java:3747)
+[15:24:37] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.invoke.MethodHandles$Lookup.findConstructor(MethodHandles.java:2837)
+[15:24:37] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.invoke.InnerClassLambdaMetafactory.buildCallSite(InnerClassLambdaMetafactory.java:232)
+[15:24:37] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.invoke.LambdaMetafactory.metafactory(LambdaMetafactory.java:341)
+[15:24:37] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.invoke.LambdaForm$DMH/0x0000021881132c00.invokeStatic(LambdaForm$DMH)
+[15:24:37] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.invoke.Invokers$Holder.invokeExact_MT(Invokers$Holder)
+[15:24:37] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.invoke.BootstrapMethodInvoker.invoke(BootstrapMethodInvoker.java:134)
+[15:24:37] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.invoke.CallSite.makeSite(CallSite.java:316)
+[15:24:37] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(MethodHandleNatives.java:274)
+[15:24:37] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.invoke.MethodHandleNatives.linkCallSite(MethodHandleNatives.java:264)
+[15:24:37] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_20_R3.CraftWorld.getLoadedChunks(CraftWorld.java:409)
+[15:24:37] [Paper Watchdog Thread/ERROR]: 		co.aikar.timings.TimingHistory$2.apply(TimingHistory.java:111)
+[15:24:37] [Paper Watchdog Thread/ERROR]: 		co.aikar.timings.TimingHistory$2.apply(TimingHistory.java:105)
+[15:24:37] [Paper Watchdog Thread/ERROR]: 		co.aikar.util.JSONUtil.toObjectMapper(JSONUtil.java:120)
+[15:24:37] [Paper Watchdog Thread/ERROR]: 		co.aikar.timings.TimingHistory.<init>(TimingHistory.java:105)
+[15:24:37] [Paper Watchdog Thread/ERROR]: 		co.aikar.timings.FullServerTickHandler.stopTiming(FullServerTickHandler.java:77)
+[15:24:37] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1573)
+[15:24:37] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1216)
+[15:24:37] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[15:24:37] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x0000021881bd4000.run(Unknown Source)
+[15:24:37] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.Thread.runWith(Thread.java:1596)
+[15:24:37] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.Thread.run(Thread.java:1583)
+[15:24:37] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:24:37] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[15:24:37] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:24:40] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-450 (MC: 1.20.4) ---
+[15:24:40] [Paper Watchdog Thread/ERROR]: The server has not responded for 19 seconds! Creating thread dump
+[15:24:40] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:24:40] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[15:24:40] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:24:40] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[15:24:40] [Paper Watchdog Thread/ERROR]: 	PID: 37 | Suspended: false | Native: false | State: RUNNABLE
+[15:24:40] [Paper Watchdog Thread/ERROR]: 	Stack:
+[15:24:40] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_20_R3.CraftChunk.getTileEntities(CraftChunk.java:145)
+[15:24:40] [Paper Watchdog Thread/ERROR]: 		co.aikar.timings.TimingHistory$2.apply(TimingHistory.java:123)
+[15:24:40] [Paper Watchdog Thread/ERROR]: 		co.aikar.timings.TimingHistory$2.apply(TimingHistory.java:105)
+[15:24:40] [Paper Watchdog Thread/ERROR]: 		co.aikar.util.JSONUtil.toObjectMapper(JSONUtil.java:120)
+[15:24:40] [Paper Watchdog Thread/ERROR]: 		co.aikar.timings.TimingHistory.<init>(TimingHistory.java:105)
+[15:24:40] [Paper Watchdog Thread/ERROR]: 		co.aikar.timings.FullServerTickHandler.stopTiming(FullServerTickHandler.java:77)
+[15:24:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1573)
+[15:24:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1216)
+[15:24:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[15:24:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x0000021881bd4000.run(Unknown Source)
+[15:24:40] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.Thread.runWith(Thread.java:1596)
+[15:24:40] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.Thread.run(Thread.java:1583)
+[15:24:40] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:24:40] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[15:24:40] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:24:45] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-450 (MC: 1.20.4) ---
+[15:24:45] [Paper Watchdog Thread/ERROR]: The server has not responded for 24 seconds! Creating thread dump
+[15:24:45] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:24:45] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[15:24:46] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:24:46] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[15:24:46] [Paper Watchdog Thread/ERROR]: 	PID: 37 | Suspended: false | Native: false | State: RUNNABLE
+[15:24:46] [Paper Watchdog Thread/ERROR]: 	Stack:
+[15:24:46] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+[15:24:46] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+[15:24:46] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+[15:24:46] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+[15:24:46] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
+[15:24:46] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
+[15:24:46] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
+[15:24:46] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_20_R3.CraftWorld.getLoadedChunks(CraftWorld.java:409)
+[15:24:46] [Paper Watchdog Thread/ERROR]: 		co.aikar.timings.TimingHistory$2.apply(TimingHistory.java:111)
+[15:24:46] [Paper Watchdog Thread/ERROR]: 		co.aikar.timings.TimingHistory$2.apply(TimingHistory.java:105)
+[15:24:46] [Paper Watchdog Thread/ERROR]: 		co.aikar.util.JSONUtil.toObjectMapper(JSONUtil.java:120)
+[15:24:46] [Paper Watchdog Thread/ERROR]: 		co.aikar.timings.TimingHistory.<init>(TimingHistory.java:105)
+[15:24:46] [Paper Watchdog Thread/ERROR]: 		co.aikar.timings.FullServerTickHandler.stopTiming(FullServerTickHandler.java:77)
+[15:24:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1573)
+[15:24:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1216)
+[15:24:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[15:24:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x0000021881bd4000.run(Unknown Source)
+[15:24:46] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.Thread.runWith(Thread.java:1596)
+[15:24:46] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.Thread.run(Thread.java:1583)
+[15:24:46] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:24:46] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[15:24:46] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:24:50] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-450 (MC: 1.20.4) ---
+[15:24:50] [Paper Watchdog Thread/ERROR]: The server has not responded for 29 seconds! Creating thread dump
+[15:24:50] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:24:50] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[15:24:50] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:24:50] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[15:24:50] [Paper Watchdog Thread/ERROR]: 	PID: 37 | Suspended: false | Native: false | State: RUNNABLE
+[15:24:50] [Paper Watchdog Thread/ERROR]: 	Stack:
+[15:24:50] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_20_R3.CraftChunk.getTileEntities(CraftChunk.java:145)
+[15:24:50] [Paper Watchdog Thread/ERROR]: 		co.aikar.timings.TimingHistory$2.apply(TimingHistory.java:123)
+[15:24:50] [Paper Watchdog Thread/ERROR]: 		co.aikar.timings.TimingHistory$2.apply(TimingHistory.java:105)
+[15:24:50] [Paper Watchdog Thread/ERROR]: 		co.aikar.util.JSONUtil.toObjectMapper(JSONUtil.java:120)
+[15:24:50] [Paper Watchdog Thread/ERROR]: 		co.aikar.timings.TimingHistory.<init>(TimingHistory.java:105)
+[15:24:50] [Paper Watchdog Thread/ERROR]: 		co.aikar.timings.FullServerTickHandler.stopTiming(FullServerTickHandler.java:77)
+[15:24:50] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1573)
+[15:24:50] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1216)
+[15:24:50] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[15:24:50] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x0000021881bd4000.run(Unknown Source)
+[15:24:50] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.Thread.runWith(Thread.java:1596)
+[15:24:50] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.Thread.run(Thread.java:1583)
+[15:24:50] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:24:50] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[15:24:50] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:24:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 51343ms or 1026 ticks behind
+[15:26:14] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-450 (MC: 1.20.4) ---
+[15:26:14] [Paper Watchdog Thread/ERROR]: The server has not responded for 40 seconds! Creating thread dump
+[15:26:14] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:26:14] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[15:26:17] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:26:17] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[15:26:17] [Paper Watchdog Thread/ERROR]: 	PID: 37 | Suspended: false | Native: false | State: RUNNABLE
+[15:26:17] [Paper Watchdog Thread/ERROR]: 	Stack:
+[15:26:32] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.util.AbstractCollection.isEmpty(AbstractCollection.java:91)
+[15:26:32] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.ticks.LevelChunkTicks.isDirty(LevelChunkTicks.java:33)
+[15:26:32] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.LevelChunk.i(LevelChunk.java:855)
+[15:26:32] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.scheduling.NewChunkHolder.save(NewChunkHolder.java:1778)
+[15:26:32] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.scheduling.ChunkHolderManager.autoSave(ChunkHolderManager.java:227)
+[15:26:32] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ChunkMap.saveIncrementally(ChunkMap.java:532)
+[15:26:32] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.saveIncrementally(ServerChunkCache.java:442)
+[15:26:32] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1493)
+[15:26:32] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1536)
+[15:26:32] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1216)
+[15:26:32] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[15:26:32] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x0000021881bd4000.run(Unknown Source)
+[15:26:32] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.Thread.runWith(Thread.java:1596)
+[15:26:32] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.Thread.run(Thread.java:1583)
+[15:26:32] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:26:32] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[15:26:32] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:27:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 113571ms or 2271 ticks behind
+[15:27:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19623ms or 392 ticks behind
+[15:32:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9025ms or 180 ticks behind
+[15:33:21] [Server thread/INFO]: Stopping the server
+[15:33:21] [Server thread/INFO]: Stopping server
+[15:33:21] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.20.1
+[15:33:21] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.20.1
+[15:33:21] [Server thread/INFO]: [PowerRanks] Disabling PowerRanks v1.10.9R2
+[15:33:22] [Server thread/INFO]: [PowerRanks] Disabled PowerRanks v1.10.9R2
+[15:33:22] [Server thread/INFO]: [EssentialsDiscord] Disabling EssentialsDiscord v2.20.1
+[15:33:22] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.20.1
+[15:33:22] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
+[15:33:22] [Server thread/INFO]: [DeluxeHub] Disabling DeluxeHub v3.5.5
+[15:33:23] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.102
+[15:33:23] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[15:33:23] [Server thread/INFO]: [LuckPerms] Closing storage...
+[15:33:24] [Server thread/INFO]: [LuckPerms] Goodbye!
+[15:33:24] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.5
+[15:33:24] [Server thread/INFO]: Saving players
+[15:33:24] [Server thread/INFO]: Saving worlds
+[15:33:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:33:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[15:33:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[15:33:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[15:33:25] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.00s
+[15:33:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:33:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[15:33:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[15:33:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[15:33:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[15:33:25] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 8 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[15:33:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:33:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[15:33:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[15:33:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[15:33:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[15:33:25] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[15:33:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:33:26] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:33:26] [Server thread/INFO]: Flushing Chunk IO
+[15:33:26] [Server thread/INFO]: Closing Thread Pool
+[15:33:26] [Server thread/INFO]: Closing Server

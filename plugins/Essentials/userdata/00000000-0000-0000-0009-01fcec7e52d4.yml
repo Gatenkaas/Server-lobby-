@@ -1,0 +1,41 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.168.1.130
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1711433657898
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1711434469179
+  login: 1711434010133
+  kits:
+    firework: 1711433819184
+    tools: 1711433827317
+money: '0'
+last-account-name: .Stijnieboy3242
+lastlocation:
+  world: 0cf3867c-5c7a-4a3a-99bb-e4ec58c77291
+  world-name: world
+  x: -3.6198797
+  y: -45.05503
+  z: 9.521561
+  yaw: -75.79953002929688
+  pitch: 34.32476806640625
+logoutlocation:
+  world: 0cf3867c-5c7a-4a3a-99bb-e4ec58c77291
+  world-name: world
+  x: 14.335925
+  y: -41.13301
+  z: 20.266243
+  yaw: -169.92852783203125
+  pitch: 43.16392517089844

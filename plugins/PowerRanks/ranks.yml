@@ -1,0 +1,52 @@
+Moderator:
+  permissions: []
+  inheritances: []
+  weight: 50
+  default: false
+  prefix: '[gradient=#9d1dff,#e22581]MODERATOR[/gradient]'
+  suffix: ''
+  chatcolor: ''
+  buyDescription: ''
+  buyCommand: ''
+  namecolor: ''
+  buyCost: 0.0
+  buyableRanks: []
+Owner:
+  permissions: []
+  inheritances: []
+  weight: 100
+  default: false
+  prefix: '[gradient=#ff00ff,#33ccff]OWNER[/gradient]'
+  suffix: ''
+  chatcolor: ''
+  buyDescription: ''
+  buyCommand: ''
+  namecolor: ''
+  buyCost: 0.0
+  buyableRanks: []
+Admin:
+  permissions: []
+  inheritances: []
+  weight: 75
+  default: false
+  prefix: '[gradient=#ffff00,#ef3300]ADMIN[/gradient]'
+  suffix: ''
+  chatcolor: ''
+  buyDescription: ''
+  buyCommand: ''
+  namecolor: ''
+  buyCost: 0.0
+  buyableRanks: []
+Member:
+  permissions: []
+  inheritances: []
+  weight: 0
+  default: true
+  prefix: '[gradient=#127e00,#3eaf18]MEMBER[/gradient]'
+  suffix: ''
+  chatcolor: ''
+  buyDescription: ''
+  buyCommand: ''
+  namecolor: ''
+  buyCost: 0.0
+  buyableRanks: []

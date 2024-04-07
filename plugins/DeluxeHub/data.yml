@@ -1,0 +1,9 @@
+chat_locked: false
+spawn:
+  ==: org.bukkit.Location
+  world: world
+  x: 8.159880904115678
+  y: -60.0
+  z: 8.59842449835168
+  pitch: 9.900012
+  yaw: -93.29822
