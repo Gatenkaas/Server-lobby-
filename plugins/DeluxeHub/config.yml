@@ -91,13 +91,13 @@ scoreboard:
     enabled: true
     rate: 200 # In ticks (20 ticks = 1 second)
 
-  title: "&d&lStijnieboy server &7(%online%/%online_max%)"
+  title: "&e&lGatenkaas Servers &7(%online%/%online_max%)"   
   lines:
     - "&7&m----------------------"
-    - "&e&lSpeler:"
+    - "&d&lSpeler:"
     - "  &f%player%"
     - ""
-    - "&e&lSERVER IP:"
+    - "&d&lSERVER IP:"
     - "  &f???"
     - "&7&m----------------------"
 
@@ -117,7 +117,7 @@ tablist:
   # Modify the header of the tablist
   header:
     - ""
-    - "&d&lStijnieboy_150 &7(%online%/%online_max%)"
+    - "&de&l Gatenkaas Servers &7(%online%/%online_max%)"
     - ""
 
   # Modify the footer of the tablist
@@ -295,11 +295,11 @@ join_leave_messages:
 join_events:
   - "[MESSAGE] &8&m+---------------***---------------+"
   - "[MESSAGE] &r"
-  - "[MESSAGE] &r    &7Welcome, &b&n%player%&r &7to the server"
+  - "[MESSAGE] &r    &7Welkom, &b&n%player%&r &7op gatenkaas Servers"
   - "[MESSAGE] &r"
-  - "[MESSAGE] &r  &2&lWEBSITE &fwww.examplemc.net"
-  - "[MESSAGE] &r  &3&lSTORE &fstore.examplemc.net"
-  - "[MESSAGE] &r  &9&lDISCORD &fdiscord.examplemc.net"
+  - "[MESSAGE] &r  &2&lWEBSITE &fniet begonnen"
+  - "[MESSAGE] &r  &3&lTwitch &ftwitch.tv/stijnieboy_150"
+  - "[MESSAGE] &r  &9&lDISCORD &fkomt eraan!"
   - "[MESSAGE] &r"
   - "[MESSAGE] &r            &7&oPowered By DeluxeHub"
   - "[MESSAGE] &8&m+---------------***---------------+"
