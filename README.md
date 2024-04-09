@@ -9,12 +9,9 @@ Word geupdate als we zien dat er update is
 
 Regels
 
-Komen eraan
+in werking
 
 Lobby server
 
 Onze lobby server
 
-Regels 
-
-in werking
